@@ -1,2 +1,2 @@
 # dotfiles
-#[Mac OSX Startup](https://github.com/mikemcquaid/strap)
+#[Mac OSX Startup Helper (strap)](https://github.com/mikemcquaid/strap)
