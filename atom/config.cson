@@ -8,6 +8,8 @@
     ]
   editor:
     fontSize: 15
+    fontFamily: "Fira Code"
+    softWrap: true
     invisibles: {}
   "exception-reporting":
     userId: "9e978bea-462d-9bd4-0066-3ab32b0630ba"
