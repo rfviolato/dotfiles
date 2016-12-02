@@ -10,7 +10,6 @@ packages: [
   'git-time-machine',
   'highlight-selected',
   'improved-chester-atom-syntax',
-  'language-babel',
   'language-jsx',
   'language-javascript-jsx',
   'language-html',

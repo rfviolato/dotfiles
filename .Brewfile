@@ -1,10 +1,11 @@
 brew "git"
 brew "git-extras"
 brew "nvm"
+brew "yarn"
 brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
-brew "zsh-syntax-highlightning"
+brew "oh-my-zsh"
 
 cask "amethyst"
 cask "appcleaner"
