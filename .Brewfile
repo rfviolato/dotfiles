@@ -8,6 +8,7 @@ brew "zsh-completions"
 brew "oh-my-zsh"
 
 cask "amethyst"
+cask "postman"
 cask "appcleaner"
 cask "atom"
 cask "caffeine"
