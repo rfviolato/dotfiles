@@ -1,11 +1,14 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/rfviolato/.oh-my-zsh
 
+autoload -U promptinit; promptinit
+prompt pure
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="pure"
 DEFAULT_USER="rfviolato"
 
 # Uncomment the following line to use case-sensitive completion.
