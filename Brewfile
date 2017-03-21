@@ -5,7 +5,6 @@ brew "yarn"
 brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
-brew "oh-my-zsh"
 
 cask "amethyst"
 cask "postman"
