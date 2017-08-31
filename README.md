@@ -1,5 +1,3 @@
-# dotfiles
-
 # 1. Install essential code stuff
 * Go to [strap](https://github.com/mikemcquaid/strap) repo to download personalized script and follow instructions. Installation may take a while.
 **Note: Close Apple App Store because strap may need to update your OS and it may crash the script if update is being downloaded **
@@ -19,11 +17,14 @@ In order to install al the contents of a `Brewfile` you need to install Homebrew
 * Enter repo folder and enter this command: `brew bundle`.
 
 # 4. Display hidden files in Finder
-* In the terminal, enter the following command: `defaults write com.apple.finder AppleShowAllFiles YES`
+* In the terminal, enter the this command: `defaults write com.apple.finder AppleShowAllFiles YES`
 * Relaunch Finder, to do so hold the 'Option/alt' key, then right click on the Finder icon in the dock and click Relaunch.
 
-# 5. Hyperterm theme
-* [hyperterm theme](https://github.com/sindresorhus/pure).
+# 5. Hyperterm theming
+* NPM install [pure theme](https://github.com/sindresorhus/pure): `npm install`
+* Install Oh-my-zsh entering this command`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+* Be sure you have opened Hyper once to generate a hyper.js file
+* Copy both `.zshrc` and `.hyper.js` file contents and replace the orignal content in each file in the root of your User folder.
 
 # 6. Setting up VSCode
 * Launch VS Code
