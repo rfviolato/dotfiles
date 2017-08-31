@@ -24,7 +24,8 @@ In order to install al the contents of a `Brewfile` you need to install Homebrew
 * NPM install [pure theme](https://github.com/sindresorhus/pure): `npm install`
 * Install Oh-my-zsh by entering this command`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 * Be sure you have opened Hyper once to generate a hyper.js file
-* Copy both `.zshrc` and `.hyper.js` file contents and replace the orignal content in each file in the root of your User folder.
+* Copy both `.zshrc` and `.hyper.js` file contents and replace the orignal content in each file in the root of your User folder
+* Inside the `.zshrc`, replace `rfviolato` entries with the macbook username.
 
 # 6. Setting up VSCode
 * Launch VS Code
