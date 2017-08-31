@@ -27,7 +27,10 @@ In order to install al the contents of a `Brewfile` you need to install Homebrew
 * Copy both `.zshrc` and `.hyper.js` file contents and replace the orignal content in each file in the root of your User folder
 * Inside the `.zshrc` file, replace `rfviolato` entries with the macbook username.
 
-# 6. Setting up VSCode
+# 6. Git config
+* Copy/paste the contents of this repo `.gitconfig` file into the OS user root original file.
+
+# 7. Setting up VSCode
 * Launch VS Code
 * Open the Command Palette (⇧⌘P (Windows, Linux Ctrl+Shift+P)) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command
 * Press ⌘ +`,` for settings
