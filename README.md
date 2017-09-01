@@ -11,17 +11,17 @@
 For any more help go to this [Github guide](https://help.github.com/articles/connecting-to-github-with-ssh/).
 
 # 3. Install Brewfile
-In order to install al the contents of a `Brewfile` you need to install Homebrew `bundle` tap.
+In order to install al the contents of a _Brewfile_ you need to install Homebrew _bundle_ tap.
 * To install the tap, in the terminal enter this command: `$ brew tap Homebrew/bundle`
-* Clone this repo: `git@github.com:rfviolato/dotfiles.git`
+* Clone this repo: `$ git clone git@github.com:rfviolato/dotfiles.git`
 * Enter repo folder and enter this command: `$ brew bundle`.
 
 # 4. Display hidden files in Finder
-* In the terminal, enter the this command: `defaults write com.apple.finder AppleShowAllFiles YES`
+* In the terminal, enter the this command: `$ defaults write com.apple.finder AppleShowAllFiles YES`
 * Relaunch Finder, to do so hold the 'Option/alt' key, then right click on the Finder icon in the dock and click Relaunch.
 
 # 5. Hyperterm theming
-* NPM install [pure theme](https://github.com/sindresorhus/pure): `npm install --global pure-prompt`
+* NPM install [pure theme](https://github.com/sindresorhus/pure): `$ npm install --global pure-prompt`
 * Install Oh-my-zsh by entering this command
 ```
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
