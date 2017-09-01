@@ -21,7 +21,7 @@ In order to install al the contents of a `Brewfile` you need to install Homebrew
 * Relaunch Finder, to do so hold the 'Option/alt' key, then right click on the Finder icon in the dock and click Relaunch.
 
 # 5. Hyperterm theming
-* NPM install [pure theme](https://github.com/sindresorhus/pure): `npm install`
+* NPM install [pure theme](https://github.com/sindresorhus/pure): `npm install --global pure-prompt`
 * Install Oh-my-zsh by entering this command`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 * Be sure you have opened Hyper once to generate a hyper.js file
 * Copy both `.zshrc` and `.hyper.js` file contents and replace the orignal content in each file in the root of your User folder
