@@ -1,5 +1,6 @@
 # 1. Install essential code stuff
 * Go to [strap](https://github.com/mikemcquaid/strap) repo to download personalized script and follow instructions. Installation may take a while.
+
 **Note: Close Apple App Store because strap may need to update your OS and it may crash the script if update is being downloaded**
 
 # 2. Generate SSH Key
@@ -23,9 +24,9 @@ In order to install al the contents of a _Brewfile_ you need to install Homebrew
 # 5. Hyperterm theming
 * NPM install [pure theme](https://github.com/sindresorhus/pure): `$ npm install --global pure-prompt`
 * Install Oh-my-zsh by entering this command
-```
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+
+
+`$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 * Be sure you have opened Hyper once to generate a hyper.js file
 * Copy both _.zshrc_ and _.hyper.js_ file contents and replace the orignal content in each file in the root of your User folder
