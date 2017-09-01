@@ -4,7 +4,7 @@
 
 # 2. Generate SSH Key
 * Open terminal
-* Copy/paste and press enter: `$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+* Copy/paste and press enter: `$ ssh-keygen -t rsa -b 4096 -C "rfviolato@gmail.com"`
 * After the key is generated, enter this command: `$ pbcopy < ~/.ssh/id_rsa.pub`
 * Go to [Github Profile Keys](https://github.com/settings/keys) and paste the key
 
