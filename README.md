@@ -12,10 +12,12 @@
 For any more help go to this [Github guide](https://help.github.com/articles/connecting-to-github-with-ssh/).
 
 # 3. Install Brewfile
-In order to install al the contents of a _Brewfile_ you need to install Homebrew _bundle_ tap.
+In order to install al the contents of a _Brewfile_ you need to install Homebrew _bundle_ tap. Strap installs it automatically, but nevertheless, just in case:
 * To install the tap, in the terminal enter this command: `$ brew tap Homebrew/bundle`
-* Clone this repo: `$ git clone git@github.com:rfviolato/dotfiles.git`
-* Enter repo folder and enter this command: `$ brew bundle`.
+
+After installation:
+* Strap will clone my dotfiles to the root, access the folder;
+* Execute in terminal `$ brew bundle`.
 
 # 4. Display hidden files in Finder
 * In the terminal, enter the this command: `$ defaults write com.apple.finder AppleShowAllFiles YES`
