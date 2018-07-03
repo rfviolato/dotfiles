@@ -86,7 +86,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias journal="code ~/Dropbox/journal/"
 alias pg_dump="/Applications/Postgres.app/Contents/Versions/9.5/bin/pg_dump"
 alias psql="/Applications/Postgres.app/Contents/Versions/9.5/bin/psql"
 
