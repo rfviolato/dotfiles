@@ -27,4 +27,4 @@ cask "vlc"
 cask "skype"
 cask "zeplin"
 cask "1password"
-cask "java
+cask "java"
