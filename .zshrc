@@ -53,7 +53,7 @@ DEFAULT_USER="rfviolato"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-completions brew git-extras npm osx rand-quote)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-completions brew git-extras npm osx)
 
 # User configuration
 
@@ -124,6 +124,6 @@ zle -N zle-line-init
 zle -N zle-keymap-select
 export KEYTIMEOUT=1
 
-
-# Init
-quote
+export PATH="/Users/rfviolato/Library/Android/sdk/platform-tools":$PATH
+export PATH="/Users/rfviolato/Library/Android/sdk/tools":$PATH
+export PATH="/Users/rfviolato/Library/Android/sdk/emulator":$PATH
