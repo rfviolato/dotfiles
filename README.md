@@ -23,7 +23,7 @@ After installation:
 * In the terminal, enter the this command: `$ defaults write com.apple.finder AppleShowAllFiles YES`
 * Relaunch Finder, to do so hold the 'Option/alt' key, then right click on the Finder icon in the dock and click Relaunch.
 
-# 5. Hyperterm theming
+# 5. Hyper Terminal
 * NPM install [pure theme](https://github.com/sindresorhus/pure): `$ npm install --global pure-prompt`
 * Install Oh-my-zsh by entering this command
 
@@ -32,7 +32,7 @@ After installation:
 
 * Be sure you have opened Hyper once to generate a hyper.js file
 * Copy both _.zshrc_ and _.hyper.js_ file contents and replace the orignal content in each file in the root of your User folder
-* Inside the _.zshrc_ file, replace _rfviolato_ entries with the macbook username.
+* Inside the _.zshrc_ file, set the variable `DEFAULT_USER` to the macbook username.
 
 # 6. Git config
 * Copy/paste the contents of this repo _.gitconfig_ file into the OS user root original file.

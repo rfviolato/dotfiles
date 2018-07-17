@@ -1,5 +1,7 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/rfviolato/.oh-my-zsh
+DEFAULT_USER="USERNAME_HERE"
+
+export ZSH="/Users/$DEFAULT_USER/.oh-my-zsh"
 
 autoload -U promptinit; promptinit
 prompt pure
@@ -9,7 +11,6 @@ prompt pure
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="refined"
-DEFAULT_USER="rfviolato"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -124,6 +125,8 @@ zle -N zle-line-init
 zle -N zle-keymap-select
 export KEYTIMEOUT=1
 
-export PATH="/Users/rfviolato/Library/Android/sdk/platform-tools":$PATH
-export PATH="/Users/rfviolato/Library/Android/sdk/tools":$PATH
-export PATH="/Users/rfviolato/Library/Android/sdk/emulator":$PATH
+export PATH="/Users/$DEFAULT_USER/Library/Android/sdk/platform-tools":$PATH
+export PATH="/Users/$DEFAULT_USER/Library/Android/sdk/tools":$PATH
+export PATH="/Users/$DEFAULT_USER/Library/Android/sdk/emulator":$PATH
+export emulator="/Users/$DEFAULT_USER/Library/Android/sdk/emulator"
+export ANDROID_HOME="/Users/$DEFAULT_USER/Library/Android/sdk/"
