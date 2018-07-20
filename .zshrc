@@ -89,6 +89,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias pg_dump="/Applications/Postgres.app/Contents/Versions/9.5/bin/pg_dump"
 alias psql="/Applications/Postgres.app/Contents/Versions/9.5/bin/psql"
+alias myip="./.dotfiles/bash_scripts/my-ip.sh"
 
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
